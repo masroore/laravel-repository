@@ -48,10 +48,24 @@ You want to know a little more about the Repository pattern? [Read this great ar
 
 ### Composer
 
+Add the following snippets to your `composer.json` file:
+
+```
+  "repositories": [
+      { "type": "git", "url": "https://github.com/masroore/laravel-validation" },
+      { "type": "git", "url": "https://github.com/masroore/laravel-repository" }
+  ],
+  "require": {
+      ...
+      "prettus/laravel-validation": "dev-master",
+      "prettus/laravel-repository": "dev-master"
+  },
+```
+
 Execute the following command to get the latest version of the package:
 
 ```terminal
-composer require prettus/l5-repository
+composer update
 ```
 
 ### Laravel
