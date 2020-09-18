@@ -20,7 +20,7 @@
     "docs": "http://andersao.github.io/laravel-repository"
   },
   "repositories": [
-      { "type": "vcs", "url": "https://github.com/masroore/laravel-validation" }
+      { "type": "git", "url": "https://github.com/masroore/laravel-validation" }
   ],
   "require": {
     "illuminate/http": "^6.0|^7.0|^8.0|^9.0",
